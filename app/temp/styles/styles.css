@@ -451,22 +451,22 @@ template {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #333;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 * {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 a {
-    color: #d59541;
+  color: #d59541;
 }
 
 .large-hero {
@@ -502,8 +502,8 @@ a {
 .large-hero__title {
       font-size: 4.8rem
 
-  } 
-    }
+  }
+  }
 
 .large-hero__subtitle {
     font-weight: 300;
@@ -518,8 +518,8 @@ a {
 .large-hero__subtitle {
       font-size: 2.9rem
 
-  } 
-    }
+  }
+  }
 
 .large-hero__description {
     color: #FFF;
@@ -535,8 +535,8 @@ a {
 
 .large-hero__description {
       font-size: 1.875rem
-  } 
-    }
+  }
+  }
 
 .btn {
   background-color: #2f5572;
@@ -559,8 +559,8 @@ a {
 
 .btn--large {
       font-size: 1.25rem
-  } 
-    }
+  }
+  }
 
 .wrapper {
   overflow: hidden;
@@ -586,8 +586,8 @@ a {
 .wrapper--no-padding-until-medium {
       padding-left: 18px;
       padding-right: 18px
-  } 
-    }
+  }
+  }
 
 .wrapper--no-padding-until-large {
     padding-left: 0;
@@ -599,8 +599,8 @@ a {
 .wrapper--no-padding-until-large {
       padding-left: 18px;
       padding-right: 18px
-  } 
-    }
+  }
+  }
 
 .wrapper .wrapper {
     padding-left: 0;
@@ -615,8 +615,8 @@ a {
 
 .wrapper--b-margin {
       margin-bottom: 3.875rem
-  } 
-    }
+  }
+  }
 
 .page-section {
   padding: 1.2rem 0;
@@ -628,8 +628,8 @@ a {
 .page-section {
     padding: 4.5rem 0
 
-} 
-    }
+}
+  }
 
 .page-section--no-b-padding-until-medium {
     padding-bottom: 0;
@@ -639,8 +639,8 @@ a {
 
 .page-section--no-b-padding-until-medium {
       padding-bottom: 4.5rem
-  } 
-    }
+  }
+  }
 
 .page-section--no-b-padding-until-large {
     padding-bottom: 0;
@@ -650,8 +650,8 @@ a {
 
 .page-section--no-b-padding-until-large {
       padding-bottom: 4.5rem
-  } 
-    }
+  }
+  }
 
 .page-section--blue {
     background-color: #2f5572;
@@ -667,8 +667,8 @@ a {
 .page-section--testimonials {
       background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
       background-size: cover
-  } 
-    }
+  }
+  }
 
 .headline {
   font-size: 1.9rem;
@@ -680,8 +680,8 @@ a {
 
 .headline {
     font-size: 2.875rem
-} 
-    }
+}
+  }
 
 .headline--centered {
     text-align: center;
@@ -699,8 +699,8 @@ a {
 
 .headline--small {
       font-size: 1.875rem
-  } 
-    }
+  }
+  }
 
 .headline--narrow {
     max-width: 500px;
@@ -729,10 +729,10 @@ a {
   }
 
 .row::after {
-        content: "";
-        clear: both;
-        display: table;
-    }
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 .row--t-padding {
     padding-top: 80px;
@@ -793,8 +793,8 @@ a {
 
     .row__medium-8--smaller {
       width: 63%;
-    } 
     }
+  }
 
 @media (min-width: 1010px) {
 
@@ -823,8 +823,8 @@ a {
 
     .row__large-8--smaller {
       width: 63%;
-    } 
     }
+  }
 
 /* Begin Equal Height Rules */
 
@@ -835,8 +835,8 @@ a {
       display: -ms-flexbox;
       display: flex
 
-  } 
-    }
+  }
+  }
 
 .row--equal-height-at-medium > div {
       float: none;
@@ -852,8 +852,8 @@ a {
       display: -ms-flexbox;
       display: flex
 
-  } 
-    }
+  }
+  }
 
 .row--equal-height-at-large > div {
       float: none;
@@ -872,8 +872,8 @@ a {
 
 .generic-content-container p {
       font-size: 1.125rem
-  } 
-    }
+  }
+  }
 
 .generic-content-container p a {
     font-weight: 700;
@@ -891,8 +891,8 @@ a {
 .section-title {
     font-size: 3.75rem
 
-} 
-    }
+}
+  }
 
 .section-title strong {
     font-weight: 500;
@@ -918,8 +918,8 @@ a {
       margin-left: 0;
       margin-bottom: 0;
       display: inline-block
-  } 
-    }
+  }
+  }
 
 .feature-item {
   position: relative;
@@ -930,8 +930,8 @@ a {
 
 .feature-item {
     padding-left: 94px
-} 
-    }
+}
+  }
 
 .feature-item__icon {
     display: block;
@@ -943,8 +943,8 @@ a {
 .feature-item__icon {
       position: absolute;
       left: 0
-  } 
-    }
+  }
+  }
 
 .feature-item__title {
     font-size: 1.6rem;
@@ -960,8 +960,8 @@ a {
       text-align: left;
       margin-top: 1em;
       font-size: 1.875rem
-  } 
-    }
+  }
+  }
 
 .testimonial {
   background-color: rgba(255, 255, 255, .8);
@@ -974,8 +974,8 @@ a {
 .testimonial {
     margin-bottom: 0;
     padding: 0 1.8125rem 1px 1.8125rem
-} 
-    }
+}
+  }
 
 .testimonial--last {
     margin-bottom: 0;
@@ -1006,4 +1006,83 @@ a {
     font-weight: 400;
     font-size: 0.9375rem;
     margin: .25rem 0 1rem 0;
+  }
+
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
+Instead edit gulp/templates/sprite */
+
+.icon {
+      background-image: url('/assets/images/sprites/sprite-0f9283b3.svg');
+    }
+
+.icon--clear-view-escapes {
+    width: 142.4px;
+    height: 59.53px;
+    background-position: 0 0;
+  }
+
+.icon--comment {
+    width: 64px;
+    height: 64px;
+    background-position: 99.70443349753694% 0;
+  }
+
+.icon--facebook {
+    width: 21.23px;
+    height: 42.01px;
+    background-position: 26.040607071652357% 45.795830448496034%;
+  }
+
+.icon--fire {
+    width: 56px;
+    height: 64px;
+    background-position: 0 99.56481481481481%;
+  }
+
+.icon--globe {
+    width: 64px;
+    height: 64px;
+    background-position: 27.586206896551722% 99.56481481481481%;
+  }
+
+.icon--instagram {
+    width: 42.01px;
+    height: 42.01px;
+    background-position: 63.2917018534157% 49.234556504346486%;
+  }
+
+.icon--mail {
+    width: 64px;
+    height: 48px;
+    background-position: 0 48.00806451612903%;
+  }
+
+.icon--rain {
+    width: 64px;
+    height: 64px;
+    background-position: 99.70443349753694% 59.25925925925926%;
+  }
+
+.icon--star {
+    width: 64px;
+    height: 64px;
+    background-position: 59.11330049261084% 99.56481481481481%;
+  }
+
+.icon--twitter {
+    width: 51.78px;
+    height: 42.06px;
+    background-position: 94.04330452560171% 98.50700323226104%;
+  }
+
+.icon--wifi {
+    width: 60px;
+    height: 64px;
+    background-position: 68.79227053140097% 0;
+  }
+
+.icon--youtube {
+    width: 34.75px;
+    height: 42px;
+    background-position: 36.69752421959096% 45.792307692307695%;
   }
